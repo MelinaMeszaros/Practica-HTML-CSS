@@ -1,0 +1,226 @@
+*{
+    margin:0;
+    padding:0;
+}
+.promo{
+    color: #f5f0ed;
+    background-color: #b49c9a;
+    text-align: center;
+    font-size: .7rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.promo h2{
+    padding: 1rem 0;
+}
+header img{
+    width:10rem;
+}
+header a{
+    color:#b49c9a;
+    text-decoration: none;
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    padding:0 0.5rem;
+    align-items: center;
+}
+ul{
+    display:flex;
+    list-style-type: none;
+    align-items: center; 
+}
+header{
+    display: flex;
+    justify-content: space-around;
+}
+.iconos{
+    font-size: 1.5rem;
+}
+nav{
+    background-color: white;
+    border-top:2px solid #b49c9a;
+    border-bottom: 2px solid #b49c9a;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+nav a{
+    color: #b49c9a;
+    text-decoration: none;
+}
+nav form{
+    padding: 1.5rem;
+    color: #b49c9a;
+}
+nav li a{
+    padding: 1.5rem;
+}
+nav li a:hover{
+    background-color: #b49c9a;
+    color: #f5f0ed;
+}
+.carrito{
+    padding:1.5rem 1.5rem 1.5rem 6rem;
+}
+.banner{
+    width:100%;
+    position: relative;
+    display: inline-block;
+}
+.banner img{
+    width: 100%;
+}
+.titulobanner{
+    width: 30%;
+    height: 20%;
+    position: absolute;
+    top :15%;
+    left: 7%;
+    padding: 2rem;
+    font-size: large;
+}
+.titulobanner h3{
+    color: white;
+    padding-bottom: .5rem;
+    font-size: 3rem;
+}
+.titulobanner p{
+    padding-top: .5rem;
+    margin-bottom: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    color: #ffffff;   
+}
+.boton{
+    text-decoration: none;
+    background-color: #b49c9a;
+    color: white;
+    padding: .5rem;
+    display: inline-block; 
+}
+.boton:hover{
+    background-color: #b49c9a99;
+}
+.titulodestacados{
+    width: 100%;
+    text-align: center;
+    color: #b49c9a;
+    padding: 4rem 0 2rem 0;
+    font-size: x-large;
+}
+.card{
+    width: 100%;
+    height: 100%; 
+    border: 5px solid #b49c9a;
+}
+section{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 4rem;
+}
+.destacados{
+    width: 20rem;
+    height: 25rem;
+    position: relative;
+}
+.botondestacados{
+    position: absolute;
+    bottom: 0;
+    width: 98%;
+    text-align: center;
+    background-color:#b49c9ab7;
+    padding: .5rem;
+}
+.botondestacados a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 2rem;
+}
+.info{
+    background-color: #b49c9a69;
+    color:#ffffff;
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 3rem;
+}
+.info span{
+    display: block;
+    font-size:large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.info ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.suscribir{
+    display: flex;
+    justify-content: center;
+    padding: 3rem; 
+    color: #ffffff; 
+    text-align: center;
+}
+.suscribir img{
+    width: 15vw;
+    border: 3px solid #b49c9a;
+}
+.fondo{
+    background-color: #b49c9a;
+    border: 3px solid #b49c9a;
+}
+.fondo h2{
+    font-family: 'Marck Script', cursive;
+    font-size: 3rem;
+    padding: 1.5rem;
+}
+.fondo p{
+    padding: 0 4rem 1rem 4rem;
+}
+.fondo form{
+    padding: 1rem;
+}
+.linea{
+    display: block;
+}
+input[type=email]{
+    border: 2.7px solid white;
+    padding:.2rem
+}
+input[type=submit]{
+    background-color: #ffffff;
+    color: #b49c9a;
+    border: 1px solid white;
+    padding:.3rem;
+}
+input[type=submit]:hover{
+    background-color: #f5f0ed;
+}
+footer{
+    border-top: 2px solid #b49c9a;
+    border-bottom: 2px solid #b49c9a;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    color: #b49c9a;
+}
+footer img{
+    width: 10rem;
+}
+footer h2{
+    padding: 2rem 0 .8rem;
+    text-transform: uppercase;
+    font-size: large;
+}
+footer a{
+    text-decoration: none;
+    color: #b49c9a;
+    padding: .5rem;
+}
+footer h4{
+    padding-top: .2rem;
+}
+footer a:hover{
+    color:#b49c9aa2;
+}
+
