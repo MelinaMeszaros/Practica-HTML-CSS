@@ -62,6 +62,45 @@ nav li a:hover{
 .carrito{
     padding:1.5rem 1.5rem 1.5rem 6rem;
 }
+.dropbtn{
+    background-color: #ffffff;
+    color: #b49c9a;
+    border: none;
+    padding: 1.5rem;
+    font-size: .9rem;
+    cursor: pointer;
+}
+.dropbtn:hover{
+    background-color: #b49c9a;
+    color: #f5f0ed;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.drop-contenido{
+    display: none;
+    position: absolute;
+    background-color: #f5f0ed;
+    min-width: 1.5rem;
+    z-index: 1;
+}
+.drop-contenido a{
+    color: #b49c9a;
+    padding: 1rem;
+    text-decoration: none;
+    display: block;
+}
+.drop-contenido a:hover{
+    background-color:#b49c9a97;
+}
+.dropdown:hover .drop-contenido{
+    display: block;
+}
+.dropdown:hover .dropbtn{
+    background-color:#b49c9a;
+    color: #f5f0ed;
+}
 .banner{
     width:100%;
     position: relative;
